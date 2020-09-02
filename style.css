@@ -1,0 +1,44 @@
+
+#fonte{
+	background-color: white;
+	height: 100%;
+}
+#container{
+	background-color: white;
+}
+.button{
+	position: fixed;
+	bottom:20px;
+	right: 20px;
+
+	background-color: #cfd8dc;
+	padding: 5px;
+	border: 0;
+	border-radius: 10px;
+
+	cursor: pointer;
+	transition: 0.2s;
+	width: 100px;
+
+}
+
+.noite{
+	filter: invert(100%);
+}
+
+#bolinha{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: black;
+}
+
+
+.animate{
+	transform: translateX(75px);
+	transition: 0.5s;
+}
+
+.stop{
+	transition: 0.5s;
+}
